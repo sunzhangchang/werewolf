@@ -40,5 +40,5 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "quick-rat-24"
-          entrypoint: "./dist/index.js" # 📝 Update the entrypoint if necessary
+          entrypoint: "./index.js" # 📝 Update the entrypoint if necessary
           root: "./dist" # 📝 Update the root if necessary
